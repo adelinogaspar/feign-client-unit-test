@@ -1,0 +1,12 @@
+server:
+  port: 9102
+  servlet.session.timeout: 3600
+  tomcat:
+    threads:
+      max: 1000
+    max-threads: 1000
+
+gateway:
+  pokemon:
+    url: https://run.mocky.io/v3
+    ok: /b917a46a-5005-405b-af63-4eda474a92f8
